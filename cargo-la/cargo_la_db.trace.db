@@ -1,0 +1,42 @@
+2026-02-28 09:40:58.333591-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.343239-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.350641-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.357853-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.364444-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.371806-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.378815-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.385782-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.392559-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.399555-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.410244-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.418522-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.426836-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.434281-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.442028-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:40:58.449340-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:43:28.746192-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:43:46.110552-08:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BORROWER_SIGNATURE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAACWCAYAAAAonXpvAAAQAElEQVR4A... (9114)"; SQL statement:
+update contracts set borrower_signature=?,created_at=?,customer_address=?,customer_email=?,customer_id=?,customer_id_number=?,customer_name=?,customer_phone=?,customer_wechat=?,deposit=?,end_date=?,fuel_level=?,lender_signature=?,monthly_price=?,odometer_start=?,plate_number=?,rental_id=?,sign_date=?,start_date=?,status=?,updated_at=?,vehicle_info=? where contract_id=? [22001-224]
+2026-02-28 09:43:55.986248-08:00 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-224]
+2026-02-28 09:44:03.124471-08:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "BORROWER_SIGNATURE CHARACTER VARYING(255)": "'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAACWCAYAAAAonXpvAAAQAElEQVR4A... (9474)"; SQL statement:
+update contracts set borrower_signature=?,created_at=?,customer_address=?,customer_email=?,customer_id=?,customer_id_number=?,customer_name=?,customer_phone=?,customer_wechat=?,deposit=?,end_date=?,fuel_level=?,lender_signature=?,monthly_price=?,odometer_start=?,plate_number=?,rental_id=?,sign_date=?,start_date=?,status=?,updated_at=?,vehicle_info=? where contract_id=? [22001-224]
